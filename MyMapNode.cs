@@ -104,3 +104,8 @@ namespace HashTable
         public V value { get; set; }
     }
 }
+public struct KeyValuePair<K, V>
+    {
+        public K key { get; set; }
+        public V value { get; set; }
+    }
